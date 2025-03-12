@@ -11,9 +11,7 @@
 }
 
 /* General Styles */
-body {
-    background-color: #F9F6EE;
-}
+
 
 body.about {
     font-family: 'Poppins', sans-serif;
@@ -135,7 +133,7 @@ a[href="#title"]:hover {
 
 
 /* Text Styling */
-.definition {
+.about .definition {
     font-size: 15px;
     line-height: 1.6;
     padding: 10px;
@@ -290,7 +288,7 @@ html, body {
     text-align: center;
 }
 
-.imgBanner {
+.home .imgBanner {
     width: 90%;
     max-width: 900px;
     border-radius: 12px;
@@ -315,7 +313,7 @@ html, body {
     padding: 10px;
 }
 
-.definition {
+.home .definition {
     background-color: #efebe9;
     padding: 18px;
     border-radius: 12px;
@@ -382,9 +380,7 @@ body.order .coffee, body.home .coffee {
 }
 
 /* input field styling */
-body.order input[type="text"],
-body.order input[type="email"],
-body.order select,
+
 body.home input[type="text"],
 body.home input[type="email"],
 body.home select {
@@ -392,6 +388,7 @@ body.home select {
     height: 30px;
     padding: 5px;
     font-size: 14px;
+    background: white;
     margin: 10px 0; 
 }
 
