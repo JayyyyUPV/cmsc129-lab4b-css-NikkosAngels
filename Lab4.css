@@ -310,12 +310,10 @@ html, body {
 }
 
 .home .imgBanner {
-    width: 90%;
-    max-width: 900px;
-    border-radius: 12px;
-    margin: 20px auto;
-    display: block;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    filter: blur(2px);
 }
 
 .home .coffee ol {
