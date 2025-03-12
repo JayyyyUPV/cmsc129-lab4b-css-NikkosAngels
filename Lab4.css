@@ -1,39 +1,101 @@
-* {
+
+html, body {
     width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 20px;
 }
 
-table {
-    width: 100%;
+#welcome {
+    font-size: 1.3em;
+    margin: 25px auto;
+    font-weight: bold;
+    text-align: center;
 }
 
-td {
-    max-width: 12%;
-    width: 100px;
+.imgBanner {
+    width: 90%;
+    max-width: 900px;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
 }
 
-.coffeeImg {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+.home .coffee ol {
+    text-align: left;
+    margin: 30px auto;
+    padding: 60px;
+    background-color: #d7ccc8;
+    border-radius: 12px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.7);
+    max-width: 85%;
 }
 
-body {
-    background-color: lightblue;
+.home .coffee li {
+    margin: 25px 0;
+    line-height: 2;
+    padding: 10px;
 }
 
-.about {
-    background-color: lightgreen;
+.definition {
+    background-color: #efebe9;
+    padding: 18px;
+    border-radius: 12px;
+    margin: 25px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    
 }
 
-/* 
-LABORATORY EXERCISE #4
-Your task is to edit this CSS file and design the different web pages (delete the dummy/test code). 
-You are NOT allowed to modify/change the HTML files.
+.emphasis {
+    font-weight: bold;
+    color: #4e342e;
+}
 
-Tips: 
-1. There are some elements that have no classes at all (such as the list of steps in making coffee), to style them, 
-you can use contextual selectors or attribute selectors to select them for styling
-2. Just with any web design project, it's best to draft a wireframe first before you start working with the CSS.
-3. You do not have to select all the classes/ids in the web pages; 
-the main goal is to create a website that is both visually appealing and user-friendly.
-*/
+.home .coffeeContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+.home .coffee img {
+    width: 65%;
+    max-width: 320px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home .orderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+#orderCoffee {
+    background-color: #4f2716;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#orderCoffee:hover {
+    background-color: #5d4037;
+    transform: scale(1.05);
+}
+
+
