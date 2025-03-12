@@ -18,12 +18,121 @@ td {
 }
 
 body {
-    background-color: lightblue;
+    background-color: #F9F6EE;
 }
 
-.about {
-    background-color: lightgreen;
+
+
+
+/* General Styles */
+body.about {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    color: #4b3832;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
+
+/* Header */
+header.about {
+    background-color: #FFFFFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Banner Image */
+img.imgBanner[src*="CoffeeBanner.jpg"] {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    filter: blur(2px)
+}
+
+img.imgBanner[src*="Logo.jpg"] {
+    max-width:  20%;
+    object-fit: cover;
+}
+
+/* Main Content */
+
+
+
+.about .coffee {
+    background: white;
+    background-color: #f5ebe0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about .coffee:first-of-type {
+    all: unset; 
+    background-color: #ffffff;
+
+}
+
+/* Coffee Definition */
+.definition {
+    font-size: 25px;
+    line-height: 1.6;
+    padding: 10px;
+    font-weight: bold;
+    color: #000000;
+    font-family: Sans-serif	, Arial;
+      
+}
+
+/* Emphasized Text */
+.emphasis {
+    color: #8d6e63;
+    font-weight: bold;
+}
+
+/* Coffee Video */
+.coffeeVideo {
+    width: 100%;
+    max-width: 500px;
+    height: 280px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Team Members */
+.teamMember {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.teamMember:hover {
+    transform: scale(1.1);
+}
+
+/* Table Labels */
+.label {
+    font-weight: bold;
+    color: #6d4c41;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #6d4c41;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
+
 
 /* 
 LABORATORY EXERCISE #4
