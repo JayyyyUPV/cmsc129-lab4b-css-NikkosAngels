@@ -60,7 +60,7 @@ img[src*="CoffeeDrop.jpg"] {
 }
 
 /* Header Styling */
-.about header {
+header {
     padding: 20px;
     border: 2px solid grey;
     background-color: #F6E7CB;
@@ -210,6 +210,341 @@ footer {
     background-color: #F6E7CB;
     color: #000000;
 }
+
+/* Renz Rendel De Arroz*/
+
+body.order {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* styling the coffee menu */
+body.order .coffee {
+    background-color: #f8f1e4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* input field styling */
+body.order input[type="text"],
+body.order input[type="email"],
+body.order select {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    margin: 10px 0; 
+}
+
+/* labels for input fields */
+body.order label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+/* submit button */
+body.order input[type="submit"] {
+    width: 220px;
+    height: 35px;
+    margin-top: 15px; 
+}
+
+/* spacing between coffee and non-coffee sections */
+body.order #coffee_choices tr:nth-child(6) td {
+    padding-top: 20px;
+}
+
+/* organizing the coffee images */
+body.order .coffeeImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+/* added hover effects to the coffee images */
+body.order .coffeeImg:hover {
+    transform: scale(1.1);
+}
+
+/* Johann Ross Yap */
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+#welcome {
+    font-size: 1.3em;
+    margin: 25px auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imgBanner {
+    width: 90%;
+    max-width: 900px;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.home .coffee ol {
+    text-align: left;
+    margin: 30px auto;
+    padding: 60px;
+    background-color: #d7ccc8;
+    border-radius: 12px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+    max-width: 75%;
+}
+
+.home .coffee li {
+    margin: 25px 0;
+    line-height: 2;
+    padding: 10px;
+}
+
+.definition {
+    background-color: #efebe9;
+    padding: 18px;
+    border-radius: 12px;
+    margin: 25px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    
+}
+
+.emphasis {
+    font-weight: bold;
+    color: #4e342e;
+}
+
+.home .coffeeContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+.home .coffee img {
+    width: 65%;
+    max-width: 320px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home .orderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+#orderCoffee {
+    width: auto;
+    background-color: #4f2716;
+    color: white;
+    border: none;
+    padding: 15px 25px;body.order, body.home {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* styling the coffee menu */
+body.order .coffee, body.home .coffee {
+    background-color: #f8f1e4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* input field styling */
+body.order input[type="text"],
+body.order input[type="email"],
+body.order select,
+body.home input[type="text"],
+body.home input[type="email"],
+body.home select {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    margin: 10px 0; 
+}
+
+/* labels for input fields */
+body.order label, body.home label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+/* submit button */
+body.order input[type="submit"], 
+body.home input[type="submit"] {
+    width: 220px;
+    height: 35px;
+    margin-top: 15px; 
+}
+
+/* spacing between coffee and non-coffee sections */
+body.order #coffee_choices tr:nth-child(6) td,
+body.home #coffee_choices tr:nth-child(6) td {
+    padding-top: 20px;
+}
+
+/* organizing the coffee images */
+body.order .coffeeImg, body.home .coffeeImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* added hover effects to the coffee images */
+body.order .coffeeImg:hover, body.home .coffeeImg:hover {
+    transform: scale(1.1);
+}
+
+/* General styling */
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+#welcome {
+    font-size: 1.3em;
+    margin: 25px auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imgBanner {
+    width: 90%;
+    max-width: 900px;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Coffee list */
+body.home .coffee ol {
+    text-align: left;
+    margin: 30px auto;
+    padding: 60px;
+    background-color: #d7ccc8;
+    border-radius: 12px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+    max-width: 75%;
+}
+
+body.home .coffee li {
+    margin: 25px 0;
+    line-height: 2;
+    padding: 10px;
+}
+
+/* Definitions */
+body.home .definition, body.order .definition {
+    background-color: #efebe9;
+    padding: 18px;
+    border-radius: 12px;
+    margin: 25px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+}
+
+/* Emphasis */
+body.home .emphasis, body.order .emphasis {
+    font-weight: bold;
+    color: #4e342e;
+}
+
+/* Coffee content layout */
+body.home .coffeeContent, body.order .coffeeContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+body.home .coffee img, body.order .coffee img {
+    width: 65%;
+    max-width: 320px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Order container */
+body.home .orderContainer, body.order .orderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+/* Order button */
+#orderCoffee {
+    width: auto;
+    background-color: #4f2716;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#orderCoffee:hover {
+    background-color: #5d4037;
+    transform: scale(1.05);
+}
+
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#orderCoffee:hover {
+    background-color: #5d4037;
+    transform: scale(1.05);
+}
+
 
 /* 
 LABORATORY EXERCISE #4
