@@ -275,11 +275,12 @@ body.order .coffeeImg:hover {
 }
 
 /* Johann Ross Yap */
+
 html, body {
     width: 100%;
     overflow-x: hidden;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
 }
 
 #welcome {
