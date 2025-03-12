@@ -1,4 +1,4 @@
-/* Reset Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +8,8 @@
     background: transparent;
 }
 
-/* General Styles */
-
 .navBar {
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 30px;
     display: flex;
@@ -134,16 +132,13 @@ a[href="#title"]:hover {
     background-color: #0056b3;
 }
 
-
-
-/* Section Styling */
 .about .coffee { 
     background-color: #f5ebe0;
-    padding: 20px; /* Adjust as needed */
-    margin: 0 auto; /* No space above/below, centered horizontally */
+    padding: 20px; 
+    margin: 0 auto; 
     width: 90%;
     max-width: 1000px;
-    border-bottom: 2px solid #000000; /* Adjust thickness and color */
+    border-bottom: 2px solid #000000; 
 }
 
 
@@ -152,9 +147,6 @@ a[href="#title"]:hover {
     background-color: #ffffff;
 }
 
-
-
-/* Text Styling */
 .about .definition {
     font-size: 15px;
     line-height: 1.6;
@@ -303,6 +295,7 @@ body.order .coffeeImg:hover {
 /* Johann Ross Yap */
 
 html, body {
+    font-family: Arial, sans-serif;
     width: 100%;
     overflow-x: hidden;
     text-align: center;
