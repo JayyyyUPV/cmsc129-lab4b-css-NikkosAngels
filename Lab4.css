@@ -11,8 +11,8 @@
 /* General Styles */
 
 .navBar {
-    position: fixed;
-    top: 20px;
+    position: absolute;
+    top: 25px;
     right: 30px;
     display: flex;
     gap: 20px;
