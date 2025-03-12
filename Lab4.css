@@ -22,8 +22,6 @@ body {
 }
 
 
-
-
 /* General Styles */
 body.about {
     font-family: 'Poppins', sans-serif;
@@ -143,6 +141,7 @@ body.order {
     padding: 0;
 }
 
+/* styling the coffee menu */
 body.order .coffee {
     background-color: #f8f1e4;
     padding: 20px;
@@ -152,15 +151,7 @@ body.order .coffee {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-body.order .coffee {
-    background-color: #f8f1e4;
-    padding: 20px;
-    border-radius: 5px;
-    width: 80%;
-    margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
+/* input field styling */
 body.order input[type="text"],
 body.order input[type="email"],
 body.order select {
@@ -171,28 +162,34 @@ body.order select {
     margin: 10px 0; 
 }
 
+/* labels for input fields */
 body.order label {
     font-weight: bold;
     display: block;
     margin-top: 15px;
 }
 
+/* submit button */
 body.order input[type="submit"] {
     width: 220px;
     height: 35px;
     margin-top: 15px; 
 }
 
+/* spacing between coffee and non-coffee sections */
 body.order #coffee_choices tr:nth-child(6) td {
     padding-top: 20px;
 }
 
+/* organizing the coffee images */
 body.order .coffeeImg {
     width: 150px;
     height: 150px;
     border-radius: 10px;
 }
 
+
+/* added hover effects to the coffee images */
 body.order .coffeeImg:hover {
     transform: scale(1.1);
 }
