@@ -1,30 +1,20 @@
+/* Reset Styles */
 * {
     width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
-table {
-    width: 100%;
-}
-
-td {
-    max-width: 12%;
-    width: 100px;
-}
-
-.coffeeImg {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
+/* General Styles */
 body {
     background-color: #F9F6EE;
 }
 
-
-
-
-/* General Styles */
 body.about {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
@@ -34,59 +24,142 @@ body.about {
     text-align: center;
 }
 
-/* Header */
-header.about {
-    background-color: #FFFFFF;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
+/* Table Styles */
+table {
+    width: 100%;
 }
 
-/* Banner Image */
+td {
+    max-width: 12%;
+    width: 100px;
+}
+
+/* Image Styling */
+.coffeeImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
 img.imgBanner[src*="CoffeeBanner.jpg"] {
     width: 100%;
     max-height: 200px;
     object-fit: cover;
-    filter: blur(2px)
+    filter: blur(2px);
 }
 
 img.imgBanner[src*="Logo.jpg"] {
-    max-width:  20%;
+    max-width: 20%;
     object-fit: cover;
 }
 
-/* Main Content */
+img[src*="CoffeeDrop.jpg"] {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
 
-
-
-.about .coffee {
-    background: white;
-    background-color: #f5ebe0;
+/* Header Styling */
+.about header {
     padding: 20px;
-    margin: 20px auto;
+    border: 2px solid grey;
+    background-color: #F6E7CB;
+    text-decoration: underline overline;
+    font-size: 50px;
+    color: #000000;
+}
+
+/* Navigation Links */
+a[href="#bottomPage"] {
+    display: inline-block;
+    margin-top: 30px;
+    width: 50%;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+a[href="#bottomPage"]:hover {
+    display: inline-block;
+    margin-top: 30px;
+    width: 50%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #0056b3;
+}
+
+a[href="#title"] {
+    display: inline-block;
+    margin-top: 30px;
+    width: 50%;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+a[href="#title"]:hover {
+    display: inline-block;
+    margin-top: 30px;
+    width: 50%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #0056b3;
+}
+
+
+
+/* Section Styling */
+.about .coffee { 
+    background-color: #f5ebe0;
+    padding: 20px; /* Adjust as needed */
+    margin: 0 auto; /* No space above/below, centered horizontally */
     width: 90%;
     max-width: 1000px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #000000; /* Adjust thickness and color */
 }
 
-.about .coffee:first-of-type {
-    all: unset; 
+
+.about .coffee:nth-of-type(2) {
+    all: unset;
     background-color: #ffffff;
-
 }
 
-/* Coffee Definition */
+
+
+/* Text Styling */
 .definition {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 10px;
+    font-weight: bold;
+    color: #000000;
+    font-family: Sans-serif, Arial;
+}
+
+.about .coffee:nth-of-type(2) .definition:first-of-type {
     font-size: 25px;
     line-height: 1.6;
     padding: 10px;
     font-weight: bold;
     color: #000000;
-    font-family: Sans-serif	, Arial;
-      
+    font-family: Sans-serif, Arial;
+}
+
+.about h2 {
+    font-size: 25px;
+    line-height: 1.6;
+    padding: 10px;
+    font-weight: bold;
+    color: #000000;
+    font-family: Sans-serif, Arial;
 }
 
 /* Emphasized Text */
@@ -121,8 +194,8 @@ img.imgBanner[src*="Logo.jpg"] {
 /* Table Labels */
 .label {
     font-weight: bold;
-    color: #6d4c41;
-    padding: 10px;
+    color: #000000;
+    padding: 15px;
 }
 
 /* Footer */
@@ -130,9 +203,13 @@ footer {
     background-color: #6d4c41;
     color: white;
     padding: 20px;
+    margin-top: 20px;
     font-size: 16px;
+    padding: 20px;
+    border: 2px solid grey;
+    background-color: #F6E7CB;
+    color: #000000;
 }
-
 
 /* 
 LABORATORY EXERCISE #4
@@ -141,8 +218,8 @@ You are NOT allowed to modify/change the HTML files.
 
 Tips: 
 1. There are some elements that have no classes at all (such as the list of steps in making coffee), to style them, 
-you can use contextual selectors or attribute selectors to select them for styling
-2. Just with any web design project, it's best to draft a wireframe first before you start working with the CSS.
-3. You do not have to select all the classes/ids in the web pages; 
-the main goal is to create a website that is both visually appealing and user-friendly.
+   you can use contextual selectors or attribute selectors to select them for styling.
+2. Just like any web design project, it's best to draft a wireframe first before you start working with the CSS.
+3. You do not have to select all the classes/IDs in the web pages; 
+   the main goal is to create a website that is both visually appealing and user-friendly.
 */
