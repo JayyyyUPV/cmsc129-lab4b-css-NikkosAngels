@@ -224,8 +224,8 @@ html, body {
     padding: 60px;
     background-color: #d7ccc8;
     border-radius: 12px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.7);
-    max-width: 85%;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+    max-width: 75%;
 }
 
 .home .coffee li {
@@ -278,6 +278,7 @@ html, body {
 }
 
 #orderCoffee {
+    width: auto;
     background-color: #4f2716;
     color: white;
     border: none;
